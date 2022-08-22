@@ -8,14 +8,21 @@ private:
     int amount;
     deque<Card> deck;
 public:
-    Deck() ;
+    //Create 1 deck;
+    Deck();
+    //Create set amount of decks
     Deck(int amount);
-
+    //Shuffle deck
     void Shuffle();
+    //Get amount of decks
     int GetAmount();
-    int GetSize() ;
-    void AddCard(Card card) ;
+    //Get size
+    int GetSize();
+    //Add cards to deck
+    void AddCard(Card card);
+    //Get top card
     Card GetCard();
+    //Empty deck
     void ClearDeck();
     ~Deck();
 };

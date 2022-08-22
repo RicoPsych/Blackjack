@@ -1,7 +1,7 @@
 #include<Windows.h>
 #include "Blackjack.h"
 
-
+//main function
 int main()
 {
     srand(time(NULL));
@@ -20,8 +20,7 @@ int main()
             if (command == "h" || command == "hit" || command == "Hit") {
                 game.Hit();
             }
-            else
-            {
+            else {
                 game.Stay();
             }
             if (game.Check()) {
