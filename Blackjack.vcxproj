@@ -143,8 +143,10 @@
     <ClCompile Include="Card.cpp" />
     <ClCompile Include="Deck.cpp" />
     <ClCompile Include="Suits.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Blackjack.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="Class.h" />
     <ClInclude Include="Deck.h" />
